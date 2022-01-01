@@ -1,0 +1,19 @@
+#Dhruv Patel
+#10/11/2021
+#Programming Assignment #2
+#Ask user to enter a date
+
+year=int(input("Please enter the year"))\
+#if leap year is divisible by 400, is a leap year
+if year % 400 ==0:
+    print (year, "Is a Leap Year")
+#if leap year is divisible by 100, is not a leap year
+elif year % 100 == 0:
+    print (year, "Is not a Leap Year")
+#if leap year is divisibile by 4, is a leap year
+elif year % 4 == 0:
+    print (year, "Is a Leap Year")
+#else everything other year will not be a leap year
+else:
+    print (year, "Is not a Leap Year")
+#will ask user the year and will define if or if not the year is a leap year. 
